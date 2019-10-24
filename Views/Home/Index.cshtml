@@ -1,0 +1,18 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h2 class="display-4">Bienvenido</h2>
+  <hr>
+    <div class="container" >
+        <div class="row">
+            <div class="col-6"> <img class="img-fluid"  src="/imgs/jave.png"  alt="AES"></div>
+            <div class="col-6 ">
+           <a class="btn btn-success mt-5  form-control-lg" asp-area="" asp-controller="Login" asp-action="Index">Ingresar al sistema</a>
+           <a class="btn btn-danger mt-5  form-control-lg" asp-area="" asp-controller="Home" asp-action="ProducirError">Generrar Error</a>
+          </div>
+        </div>
+    </div>
+</div>
+
